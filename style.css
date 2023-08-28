@@ -1,0 +1,71 @@
+body{
+
+margin: 0;
+padding: 0;
+width: 100%;
+display: flex;
+align-items: normal;
+background-color: #3f3f3f;
+text-shadow: #000000;
+color: white;
+position: absolute; top: 300px;
+
+}
+
+.img-rotate{
+
+
+width: 50%;
+display: flex;
+justify-content: baseline;
+position: relative; top: 1; left: 300px;
+
+}
+
+figure{
+
+width: 50%;
+align-items: center;
+overflow: visible;
+
+}
+
+
+img{
+width: 100%;
+}
+
+figure img {
+
+transform: rotate(-15deg) scale(1.2);
+-webkit-transform: rotate(-15deg) scale(1.2);
+transition: .3s ease-in-out;
+-webkit-transition: .3s ease-in-out;
+
+}
+
+
+
+
+figure:hover img{
+
+transform: rotate(0) scale(1);
+-webkit-transform: rotate(0) scale(1);
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
